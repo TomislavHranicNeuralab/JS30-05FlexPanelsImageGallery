@@ -1,0 +1,30 @@
+{
+	"name": "JS30-05FlexPanelsImageGallery",
+	"version": "1.0.0",
+	"private": true,
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --config webpack.config.js --open",
+		"build": "webpack --config webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TomislavHranicNeuralab/JS30-05FlexPanelsImageGallery.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TomislavHranicNeuralab/JS30-05FlexPanelsImageGallery/issues"
+	},
+	"homepage": "https://github.com/TomislavHranicNeuralab/JS30-05FlexPanelsImageGallery#readme",
+	"devDependencies": {
+		"browser-sync": "^2.27.5",
+		"browser-sync-webpack-plugin": "^2.3.0",
+		"html-webpack-plugin": "^5.3.2",
+		"webpack": "^5.52.1",
+		"webpack-cli": "^4.8.0",
+		"webpack-dev-server": "^4.2.0"
+	}
+}
